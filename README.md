@@ -3,3 +3,4 @@ En este repositorio se integrarán las actividades llevadas acabo durante el ent
 Curso: Front-End Mission para LaunchX (by Innovacción Virtual).
 
 - [Semana 1](https://github.com/jluissolorio/Front-End-TrainingMission/tree/main/Semana%201)
+- [Semana 2](https://github.com/jluissolorio/Front-End-TrainingMission/tree/main/Semana%202)
