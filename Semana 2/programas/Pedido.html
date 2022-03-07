@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#99CCCC">
+    
+    <h1>Levantar Pedido</h1>
+    <form action = "pedido.js">
+        <label for="" > ¿Cuál es tu nombre? </label> <br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+        <label> <form action="">  ¿Cuál es tu dirección? </form></label> <br>
+        <input type="text" name="Direccion" id="Direccion" placeholder="Direccion">
+
+        <br><br>
+        <label> <form action="">  ¿Cuál es tu número de teléfono? </form></label> <br>
+        <input type="text" name="Telefono" id="Telefono" placeholder="55-5555-5555">
+
+        <br><br>
+        <label> <form action="">  ¿Cuál es tu número email? </form></label> <br>
+        <input type="text" name="Email" id="Email" placeholder="Email">
+        
+        <br><br>
+        <p> ¿Para comer aquí o para llevar a domicilio? </p>
+        <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+        <label for="llevar"> Para llevar </label><br>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+        <label for="aqui"> Para aquí </label><br>
+
+        <br><br>
+        <p> ¿Pastel de qué? </p>
+
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Pastel Mercurio</label>
+        <input type="number" id = "mercurioCuantos" name="mercurioCuantos" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Pastel Venus</label>
+        <input type="number" id = "venusCuantos" name="venusCuantos" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Pastel Tierra</label>
+        <input type="number" id = "tierraCuantos" name="tierraCuantos" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id=jupiter" name="jupiter" value="Jupiter">
+        <label for="jupiter">Pastel Jupiter</label>
+        <input type="number" id = "jupiterCuantos" name="jupiterCuantos" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="saturno" name="saturno" value="Saturno">
+        <label for="saturno">Pastel Saturno</label>
+        <input type="number" id = "saturnoCuantos" name="saturnoCuantos" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="urano" name="urano" value="Urano">
+        <label for="urano">Pastel Urano</label>
+        <input type="number" id = "uranoCuantos" name="uranoCuantos" placeholder="¿Cuantos?">
+
+        <br><br>
+
+        <p> ¿Qué deseas de beber? </p>
+        <select name="refresco" id="refresco">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Manzanita">Manzanita</option>
+            <option value="Squirt">Squirt</option>
+            <option value="Coca-Cola Light">Coca-Cola Light</option>
+        </select>
+
+        <br><br>
+
+        <h2> Selecciona una posible combinación de sabores </h2>
+        <input type="radio" id="fresachocolate" name="combinado" value="Fresachocolate">
+        <label for="fresachocolate"> Fresa-Chocolate </label><br>
+        <input type="radio" id="rojosvainilla" name="combinado" value="Rojosvainilla">
+        <label for="rojosvainilla"> Frutos Rojos-Vainilla </label><br>
+        <input type="radio" id="duraznovainilla" name="combinado" value="Duraznovainilla">
+        <label for="duraznovainilla"> Durazno-Vainilla </label><br>
+        
+        <br><br>
+        
+        <h2> Selecciona una posible combinación de adornos </h2>
+        <input type="radio" id="floresfrutas" name="adornoscomb" value="Floresfrutas">
+        <label for="floresfrutas"> Flores-Frutas </label><br>
+        <input type="radio" id="frutasmalv" name="adornoscomb" value="Rojosvainilla">
+        <label for="frutasmalv"> Frutas-Malvaviscos </label><br>
+        <input type="radio" id="chocgalletas" name="adornoscomb" value="Chocgalletas">
+        <label for="chocgalletas"> Chocolates-Galletas </label><br>
+        <input type="radio" id="chocfrutas" name="adornoscomb" value="Chocfrutas">
+        <label for="chocfrutas"> Chocolates-Frutas </label><br>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+     </form>
+
+    </body>
+</html>
